@@ -287,7 +287,7 @@ def click_verify(driver: WebDriver):
     except Exception:
         logging.debug("The Cloudflare 'Verify you are human' button not found on the page.")
 
-    time.sleep(2)
+    time.sleep(5)
 
 
 def get_correct_window(driver: WebDriver) -> WebDriver:
